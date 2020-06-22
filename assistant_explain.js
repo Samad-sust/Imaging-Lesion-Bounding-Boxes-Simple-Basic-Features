@@ -59,7 +59,7 @@ function explain_assistant_rerult() {
               c.lineTo(handleItem.x, handleItem.y);
             }
 
-            if(handles[handles.length - 1]) {          // check whether it is the last item of freehand
+            if(handles[handles.length - 1]) {          // check whether it is the last item of freehand( to draw lines among freehand)
               c.lineTo((handles[0].x),(handles[0].y));
             }
           }
